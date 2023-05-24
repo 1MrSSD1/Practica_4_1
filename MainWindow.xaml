@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp79.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp79"
+        mc:Ignorable="d"
+        Title="MainWindow" Background="Crimson" Height="300" Width="300">
+    <Grid>
+        <TextBlock Text="Введите день:" Margin="0,0,0,240"/>
+            <TextBlock Text="Введите месяц:" Margin="0,59,0,176"/>
+            <TextBox x:Name="dayTextBox" Margin="0,29,0,210"/>
+            <TextBox x:Name="monthTextBox" Margin="0,93,0,146"/>
+            <Button Click="Button_Click" Content="ОК" Margin="0,123,0,118"/>
+        <Label x:Name="txtOtv1" Margin="0,151,0,65"/>
+        <Label x:Name="txtOtv2" Margin="0,209,0,0"/>
+    </Grid>
+</Window>
